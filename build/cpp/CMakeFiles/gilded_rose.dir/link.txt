@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libgilded_rose.a CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj
+C:\mingw64\bin\ranlib.exe libgilded_rose.a

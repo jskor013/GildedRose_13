@@ -1,0 +1,21 @@
+# ninja log v7
+4	195	8003572857796527	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	3e8d2a11ada5d05e
+4	195	8003572857796527	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	3e8d2a11ada5d05e
+195	1861	8003572874113204	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f0be207593586840
+195	1861	8003572874113204	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f0be207593586840
+1861	2099	8003572876861640	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	edcedba7d4ba4364
+1861	2099	8003572876861640	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	edcedba7d4ba4364
+2101	2317	8003572879030400	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	49f04e2d3d30accf
+2101	2317	8003572879030400	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	49f04e2d3d30accf
+2317	2497	8003572880819379	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	432618c37e9614f
+2317	2497	8003572880819379	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	432618c37e9614f
+2497	2675	8003572882598370	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	6ad8fb2dde271706
+2497	2675	8003572882598370	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	6ad8fb2dde271706
+2675	2859	8003572884437614	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	cdb02526d323e7c7
+2675	2859	8003572884437614	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	cdb02526d323e7c7
+2859	3042	8003572886276715	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	79d752dc2dd11d5a
+2859	3042	8003572886276715	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	79d752dc2dd11d5a
+3042	3297	8003572888815142	CMakeFiles/googletest-populate-complete	ff71d7752f52042a
+3042	3297	8003572888815142	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	ff71d7752f52042a
+3042	3297	8003572888815142	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	ff71d7752f52042a
+3042	3297	8003572888815142	E:/dev/GildedRose_13/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	ff71d7752f52042a
