@@ -26,6 +26,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/mingw64/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in"
+  "C:/mingw64/share/cmake-4.3/Modules/FindGit.cmake"
+  "C:/mingw64/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/mingw64/share/cmake-4.3/Modules/FindPackageMessage.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/GNUInstallDirs.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/GoogleTest.cmake"
   "C:/mingw64/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
@@ -51,6 +54,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeRCCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeSystem.cmake"
+  "_deps/approvaltests-src/ApprovalTests/CMakeLists.txt"
+  "_deps/approvaltests-src/CMake/ApprovalTestsOptions.cmake"
+  "_deps/approvaltests-src/CMake/UseCompilerCache.cmake"
+  "_deps/approvaltests-src/CMake/WarningsAsErrors.cmake"
+  "_deps/approvaltests-src/CMakeLists.txt"
+  "_deps/approvaltests-src/third_party/CMakeLists.txt"
   "_deps/googletest-src/CMakeLists.txt"
   "_deps/googletest-src/googlemock/CMakeLists.txt"
   "_deps/googletest-src/googlemock/cmake/gmock.pc.in"
@@ -72,6 +81,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/googletest-subbuild/CMakeLists.txt"
+  "_deps/approvaltests-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/googletest-build/googletest/generated/gmock.pc"
@@ -82,6 +92,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/googletest-build/googletest/generated/gtest.pc"
   "_deps/googletest-build/googletest/generated/gtest_main.pc"
   "_deps/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/approvaltests-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/approvaltests-build/ApprovalTests/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/approvaltests-build/third_party/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -92,4 +105,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "_deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/DependInfo.cmake"
   )

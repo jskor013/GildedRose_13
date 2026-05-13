@@ -1,5 +1,5 @@
 {
-  "tests": 13,
+  "tests": 16,
   "name": "AllTests",
   "testsuites": [
     {
@@ -25,6 +25,27 @@
           "name": "SulfurasNoChangesAfterUpdate",
           "file": "E:\\dev\\GildedRose_13\\cpp\\test\\GildedRoseTest.cpp",
           "line": 28
+        }
+      ]
+    },
+    {
+      "name": "ConjuredTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceNormal",
+          "file": "E:\\dev\\GildedRose_13\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 68
+        },
+        {
+          "name": "DegradesTwiceAfterSellDate",
+          "file": "E:\\dev\\GildedRose_13\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 77
+        },
+        {
+          "name": "QualityNeverNegative",
+          "file": "E:\\dev\\GildedRose_13\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 86
         }
       ]
     },

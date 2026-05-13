@@ -97,6 +97,7 @@ gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.ob
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/build.make
 gilded_rose_test.exe: libgilded_rose.a
 gilded_rose_test.exe: lib/libgtest_main.a
+gilded_rose_test.exe: _deps/approvaltests-build/ApprovalTests/libApprovalTests.a
 gilded_rose_test.exe: lib/libgtest.a
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/linkLibs.rsp
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/objects1.rsp

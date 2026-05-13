@@ -6,6 +6,15 @@ GildedRose::GildedRose(std::vector<Item>& items) : items(items) {}
 void GildedRose::updateQuality() {
     using namespace GildedRoseConstants;
     for (size_t i = 0; i < items.size(); i++) {
+        if (items[i].name == CONJURED) {
+            // 2배 감소, sellIn 지나면 4배
+            int degradeBy = (items[i].sellIn > 0) ? 2 : 4;
+            items[i].quality = std::max(MIN_QUALITY,
+                                    items[i].quality - degradeBy);
+
+            items[i].sellIn--;
+            continue;
+        }
         if (items[i].name != AGED_BRIE
                 && items[i].name != BACKSTAGE_PASS) {
             if (items[i].quality > MIN_QUALITY) {

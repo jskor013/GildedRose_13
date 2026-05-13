@@ -63,3 +63,31 @@ INSTANTIATE_TEST_SUITE_P(
         std::make_tuple(0, 50, 0)     // concert 후 -> 0
     )
 );
+
+// ① RED - 실패하는 테스트 먼저 작성
+TEST(ConjuredTest, DegradesTwiceNormal) {
+    std::vector<Item> items = {
+        Item("Conjured Mana Cake", 10, 20)
+    };
+    GildedRose gr(items);
+    gr.updateQuality();
+    EXPECT_EQ(18, items[0].quality); // 20 - 2 = 18 ← 아직 실패!
+}
+
+TEST(ConjuredTest, DegradesTwiceAfterSellDate) {
+    std::vector<Item> items = {
+        Item("Conjured Mana Cake", 0, 10)
+    };
+    GildedRose gr(items);
+    gr.updateQuality();
+    EXPECT_EQ(6, items[0].quality);  // 10 - 4 = 6 ← 아직 실패!
+}
+
+TEST(ConjuredTest, QualityNeverNegative) {
+    std::vector<Item> items = {
+        Item("Conjured Mana Cake", 5, 1)
+    };
+    GildedRose gr(items);
+    gr.updateQuality();
+    EXPECT_EQ(0, items[0].quality);  // 1 - 2 → 0 (음수 방지)
+}
