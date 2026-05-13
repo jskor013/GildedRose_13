@@ -1,0 +1,38 @@
+[
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gilded_rose.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\gilded_rose.dir\\src\\GildedRose.cpp.obj -c E:\\dev\\GildedRose_13\\cpp\\src\\GildedRose.cpp",
+  "file": "E:/dev/GildedRose_13/cpp/src/GildedRose.cpp",
+  "output": "CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj"
+},
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gilded_rose_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\gilded_rose_test.dir\\test\\GildedRoseTest.cpp.obj -c E:\\dev\\GildedRose_13\\cpp\\test\\GildedRoseTest.cpp",
+  "file": "E:/dev/GildedRose_13/cpp/test/GildedRoseTest.cpp",
+  "output": "CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj"
+},
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c E:\\dev\\GildedRose_13\\build\\cpp\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c E:\\dev\\GildedRose_13\\build\\cpp\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c E:\\dev\\GildedRose_13\\build\\cpp\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c E:\\dev\\GildedRose_13\\build\\cpp\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

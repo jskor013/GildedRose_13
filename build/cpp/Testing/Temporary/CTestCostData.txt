@@ -1,0 +1,15 @@
+GildedRoseTest.AgedBrieQualityMax50 4 0.0499543
+GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 4 0.0437784
+GildedRoseTest.QualityNeverNegative 4 0.0362415
+GildedRoseTest.SulfurasNoChangesAfterUpdate 3 0.0404585
+GoogleTestVerification.UninstantiatedParameterizedTestSuite<BackstagePassTest> 0 0
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 1 0.0380945
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 1 0.0299983
+BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 1 0.0402889
+BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 1 0.0287272
+BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 1 0.0282699
+BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 1 0.0352129
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 1 0.0347925
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.030798
+BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0350629
+---

@@ -1,0 +1,40 @@
+Start testing: May 13 15:40 대한민국 표준시
+----------------------------------------------------------
+1/1 Testing: GildedRoseTest.Foo
+1/1 Test: GildedRoseTest.Foo
+Command: "E:/dev/GildedRose_13/cpp/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.Foo" "--gtest_also_run_disabled_tests"
+Directory: E:/dev/GildedRose_13/cpp/build
+"GildedRoseTest.Foo" start time: May 13 15:40 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from E:/dev/GildedRose_13/cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = GildedRoseTest.Foo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.Foo
+E:/dev/GildedRose_13/cpp/test/GildedRoseTest.cpp:8: Failure
+Expected equality of these values:
+  "fixme"
+  app.items[0].name
+    Which is: "foo"
+
+[  FAILED  ] GildedRoseTest.Foo (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GildedRoseTest.Foo
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"GildedRoseTest.Foo" end time: May 13 15:40 대한민국 표준시
+"GildedRoseTest.Foo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 15:40 대한민국 표준시
