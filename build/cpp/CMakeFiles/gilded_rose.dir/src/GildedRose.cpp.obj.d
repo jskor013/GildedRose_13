@@ -105,4 +105,5 @@ CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
- C:/mingw64/include/c++/15.2.0/bits/vector.tcc
+ C:/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ E:/dev/GildedRose_13/cpp/include/GildedRoseConstants.h

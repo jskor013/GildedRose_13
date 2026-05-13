@@ -109,8 +109,11 @@ CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: E:/dev/GildedRose_13/cpp/src/
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   E:/dev/GildedRose_13/cpp/include/GildedRose.h \
+  E:/dev/GildedRose_13/cpp/include/GildedRoseConstants.h \
   E:/dev/GildedRose_13/cpp/include/Item.h
 
+
+E:/dev/GildedRose_13/cpp/include/GildedRoseConstants.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
