@@ -1,17 +1,17 @@
-BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 6 0.0413469
-BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 6 0.0382252
-BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 6 0.0341331
-BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 6 0.0403418
-BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 6 0.0379672
-BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 6 0.0355063
-BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 6 0.0361204
-BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 6 0.0379029
-BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 6 0.056552
-GildedRoseTest.AgedBrieQualityMax50 6 0.0322372
-GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 6 0.0389506
-GildedRoseTest.QualityNeverNegative 6 0.0345795
-GildedRoseTest.SulfurasNoChangesAfterUpdate 6 0.0439023
-ConjuredTest.DegradesTwiceAfterSellDate 3 0.0341074
-ConjuredTest.DegradesTwiceNormal 3 0.059842
-ConjuredTest.QualityNeverNegative 4 0.0325524
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 8 0.0460415
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 8 0.0377613
+BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 11 0.0384555
+BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 13 0.0366297
+BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 12 0.0383801
+BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 12 0.0374249
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 12 0.0360433
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 13 0.0404466
+BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 13 0.0458069
+GildedRoseTest.AgedBrieQualityMax50 13 0.0319643
+GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 13 0.0363977
+GildedRoseTest.QualityNeverNegative 13 0.033098
+GildedRoseTest.SulfurasNoChangesAfterUpdate 13 0.0369522
+ConjuredTest.DegradesTwiceAfterSellDate 10 0.0336956
+ConjuredTest.DegradesTwiceNormal 10 0.0415177
+ConjuredTest.QualityNeverNegative 11 0.0337453
 ---

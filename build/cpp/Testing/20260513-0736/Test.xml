@@ -19,14 +19,14 @@
 	ProcessorCacheSize="0"
 	NumberOfLogicalCPU="4"
 	NumberOfPhysicalCPU="4"
-	TotalVirtualMemory="10046"
+	TotalVirtualMemory="7957"
 	TotalPhysicalMemory="8130"
 	LogicalProcessorsPerPhysical="1"
 	ProcessorClockFrequency="3401.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 16:17 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778743057</StartTestTime>
+		<StartDateTime>May 15 08:55 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778802926</StartTestTime>
 		<TestList>
 			<Test>./GildedRoseTest.SulfurasNoChangesAfterUpdate</Test>
 		</TestList>
@@ -35,10 +35,10 @@
 			<Path>.</Path>
 			<FullName>./GildedRoseTest.SulfurasNoChangesAfterUpdate</FullName>
 			<FullCommandLine>E:\dev\GildedRose_13\build\cpp\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.SulfurasNoChangesAfterUpdate" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778743057.559101</StartTestTime>
+			<StartTestTime>1778802926.669999</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.035558</Value>
+					<Value>0.029253</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -57,8 +57,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 14 16:17 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778743057</EndTestTime>
+		<EndDateTime>May 15 08:55 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778802926</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
