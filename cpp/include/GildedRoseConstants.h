@@ -6,4 +6,6 @@ namespace GildedRoseConstants {
     inline constexpr int         MAX_QUALITY    = 50;
     inline constexpr int         MIN_QUALITY    = 0;
     inline constexpr int         SULFURAS_QUALITY = 80;
+    inline constexpr int         BACKSTAGE_PASS_X3_BOUNDARY = 6;
+    inline constexpr int         BACKSTAGE_PASS_X2_BOUNDARY = 11;
 }

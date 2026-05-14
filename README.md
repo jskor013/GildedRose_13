@@ -51,9 +51,9 @@ ctest --test-dir build
 ### To-Do List
 
 ### To-Do List For Refactoring
-- 회귀테스트 작성
-- 상수 추출
-- 변수명 정리
+- 회귀테스트 작성 - OK :TEST완료
+- 상수 추출 - OK :TEST완료
+- 변수명 정리 - OK :TEST완료
 - 조건문 정리
 - 메서드 추출
 - 클래스 분리 (Templete Method 적용)
