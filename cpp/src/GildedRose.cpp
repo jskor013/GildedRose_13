@@ -1,67 +1,68 @@
 #include "GildedRose.h"
 #include "GildedRoseConstants.h"
 
+using namespace GildedRoseConstants;
+bool isNormalItem(Item item)
+{
+    return (item.name != AGED_BRIE) && (item.name != BACKSTAGE_PASS) && (item.name != CONJURED) && (item.name != SULFURAS);
+}
+
 GildedRose::GildedRose(std::vector<Item>& items) : items(items) {}
 
 void GildedRose::updateQuality() {
-    using namespace GildedRoseConstants;
-    for (size_t i = 0; i < items.size(); i++) {
-        if (items[i].name == CONJURED) {
+    
+    for (size_t i = 0; i < items.size(); i++) 
+    {
+        Item& item = items[i];
+        if (isNormalItem(item)) 
+        {
+            if(item.sellIn == 0) item.quality -= 2;
+            else if(item.sellIn > 0) item.quality -= 1;
+        } 
+        else if (item.name == CONJURED)
+        {
             // 2배 감소, sellIn 지나면 4배
-            int degradeBy = (items[i].sellIn > 0) ? 2 : 4;
-            items[i].quality = std::max(MIN_QUALITY,
-                                    items[i].quality - degradeBy);
-
-            items[i].sellIn--;
-            continue;
+            int degradeBy = (item.sellIn > 0) ? 2 : 4;
+            item.quality = std::max(MIN_QUALITY, item.quality - degradeBy);            
         }
-        if (items[i].name != AGED_BRIE
-                && items[i].name != BACKSTAGE_PASS) {
-            if (items[i].quality > MIN_QUALITY) {
-                if (items[i].name != SULFURAS) {
-                    items[i].quality = items[i].quality - 1;
-                }
-            }
-        } else {
-            if (items[i].quality < 50) {
-                items[i].quality = items[i].quality + 1;
-
-                if (items[i].name == BACKSTAGE_PASS) {
-                    if (items[i].sellIn < 11) {
-                        if (items[i].quality < MAX_QUALITY) {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
-
-                    if (items[i].sellIn < 6) {
-                        if (items[i].quality < MAX_QUALITY) {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
-                }
-            }
+        else if(item.name == BACKSTAGE_PASS)
+        {    
+            if(item.sellIn <= 0) item.quality = 0;          
+            else if(item.sellIn<BACKSTAGE_PASS_X3_BOUNDARY) item.quality += 3;
+            else if(item.sellIn<BACKSTAGE_PASS_X2_BOUNDARY) item.quality += 2;            
+            else item.quality += 1;                     
+        }
+        else if(item.name == SULFURAS)
+        {
+            item.quality = 80;
+        }
+        else if(item.name == AGED_BRIE)
+        {
+            if(item.sellIn == 0) item.quality += 2;
+            else if(item.sellIn > 0) item.quality += 1;
         }
 
-        if (items[i].name != SULFURAS) {
-            items[i].sellIn = items[i].sellIn - 1;
+        if(item.name == SULFURAS)
+        {
+            item.sellIn;            
+        }
+        else
+        {
+            item.sellIn--; 
         }
 
-        if (items[i].sellIn < 0) {
-            if (items[i].name != AGED_BRIE) {
-                if (items[i].name != BACKSTAGE_PASS) {
-                    if (items[i].quality > MIN_QUALITY) {
-                        if (items[i].name != SULFURAS) {
-                            items[i].quality = items[i].quality - 1;
-                        }
-                    }
-                } else {
-                    items[i].quality = items[i].quality - items[i].quality;
-                }
-            } else {
-                if (items[i].quality < MAX_QUALITY) {
-                    items[i].quality = items[i].quality + 1;
-                }
-            }
+        if(item.sellIn <= 0) item.sellIn = 0;
+        if(item.name != SULFURAS)
+        {
+            if(item.quality > MAX_QUALITY) item.quality = MAX_QUALITY;
+            if(item.quality < MIN_QUALITY) item.quality = MIN_QUALITY;
         }
+
     }
+
+
+        
+        
+
+        
 }

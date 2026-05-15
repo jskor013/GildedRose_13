@@ -1,1 +1,0 @@
--IE:/dev/GildedRose_13/cpp/include -I"E:/dev/GildedRose_13/build/cpp/_deps/approvaltests-src/ApprovalTests/.." -I"E:/dev/GildedRose_13/build/cpp/_deps/approvaltests-src/ApprovalTests" -isystem "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googletest/include" -isystem "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googletest"

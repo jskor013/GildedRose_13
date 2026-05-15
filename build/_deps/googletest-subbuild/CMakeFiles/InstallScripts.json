@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/dev/GildedRose_13/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

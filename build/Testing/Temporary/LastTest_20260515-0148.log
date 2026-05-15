@@ -1,0 +1,29 @@
+Start testing: May 15 11:15 대한민국 표준시
+----------------------------------------------------------
+1/17 Testing: GildedRoseApproval.ThirtyDaysSimulation
+1/17 Test: GildedRoseApproval.ThirtyDaysSimulation
+Command: "E:/dev/GildedRose_13/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseApproval.ThirtyDaysSimulation" "--gtest_also_run_disabled_tests"
+Directory: E:/dev/GildedRose_13/build
+"GildedRoseApproval.ThirtyDaysSimulation" start time: May 15 11:15 대한민국 표준시
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GildedRoseApproval.ThirtyDaysSimulation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseApproval
+[ RUN      ] GildedRoseApproval.ThirtyDaysSimulation
+[       OK ] GildedRoseApproval.ThirtyDaysSimulation (21 ms)
+[----------] 1 test from GildedRoseApproval (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseApproval.ThirtyDaysSimulation" end time: May 15 11:15 대한민국 표준시
+"GildedRoseApproval.ThirtyDaysSimulation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 15 11:15 대한민국 표준시
