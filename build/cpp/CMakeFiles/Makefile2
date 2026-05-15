@@ -252,6 +252,7 @@ CMakeFiles/gilded_rose.dir/clean:
 # All Build rule for target.
 CMakeFiles/gilded_rose_test.dir/all: CMakeFiles/gilded_rose.dir/all
 CMakeFiles/gilded_rose_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/gilded_rose_test.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/gilded_rose_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/gilded_rose_test.dir/all: _deps/approvaltests-build/ApprovalTests/CMakeFiles/ApprovalTests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gilded_rose_test.dir\build.make CMakeFiles/gilded_rose_test.dir/depend
@@ -261,7 +262,7 @@ CMakeFiles/gilded_rose_test.dir/all: _deps/approvaltests-build/ApprovalTests/CMa
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gilded_rose_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\dev\GildedRose_13\build\cpp\CMakeFiles 78
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\dev\GildedRose_13\build\cpp\CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gilded_rose_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\dev\GildedRose_13\build\cpp\CMakeFiles 0
 .PHONY : CMakeFiles/gilded_rose_test.dir/rule

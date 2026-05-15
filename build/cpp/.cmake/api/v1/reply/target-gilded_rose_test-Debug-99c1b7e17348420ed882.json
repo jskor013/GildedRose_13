@@ -32,13 +32,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
@@ -53,7 +53,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 33,
+				"line" : 81,
 				"parent" : 0
 			},
 			{
@@ -78,6 +78,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock::@0f7bb11d64f3678238c7"
 		},
 		{
 			"backtrace" : 2,
@@ -116,6 +120,16 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googletest"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googlemock/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/dev/GildedRose_13/build/cpp/_deps/googletest-src/googlemock"
 				}
 			],
 			"language" : "CXX",
@@ -142,6 +156,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock::@0f7bb11d64f3678238c7"
 		},
 		{
 			"backtrace" : 2,
@@ -173,6 +191,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "lib\\libgmock.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "_deps\\approvaltests-build\\ApprovalTests\\libApprovalTests.a",
 				"role" : "libraries"
 			},
@@ -197,6 +220,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock::@0f7bb11d64f3678238c7"
 		},
 		{
 			"backtrace" : 2,

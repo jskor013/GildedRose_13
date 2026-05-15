@@ -1439,7 +1439,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "GildedRose"
+			"value" : "GildedRoseCpp"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -2030,6 +2030,42 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "GildedRoseCpp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/dev/GildedRose_13/build/cpp"
+		},
+		{
+			"name" : "GildedRoseCpp_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "GildedRoseCpp_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/dev/GildedRose_13/cpp"
+		},
+		{
 			"name" : "GildedRose_BINARY_DIR",
 			"properties" : 
 			[
@@ -2299,7 +2335,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "gtest_hide_internal_symbols",

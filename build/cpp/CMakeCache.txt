@@ -270,7 +270,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=GildedRose
+CMAKE_PROJECT_NAME:STATIC=GildedRoseCpp
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -408,6 +408,15 @@ GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 GTEST_HAS_ABSL:BOOL=OFF
 
 //Value Computed by CMake
+GildedRoseCpp_BINARY_DIR:STATIC=E:/dev/GildedRose_13/build/cpp
+
+//Value Computed by CMake
+GildedRoseCpp_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+GildedRoseCpp_SOURCE_DIR:STATIC=E:/dev/GildedRose_13/cpp
+
+//Value Computed by CMake
 GildedRose_BINARY_DIR:STATIC=E:/dev/GildedRose_13/build/cpp
 
 //Value Computed by CMake
@@ -461,7 +470,7 @@ gtest_disable_pthreads:BOOL=OFF
 
 //Use shared (DLL) run-time lib even when Google Test is built
 // as static lib.
-gtest_force_shared_crt:BOOL=OFF
+gtest_force_shared_crt:BOOL=ON
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
