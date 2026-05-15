@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/dev/GildedRose_13/build/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/googletest-build/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/approvaltests-build/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/approvaltests-build/ApprovalTests/cmake_install.cmake",
+		"E:/dev/GildedRose_13/build/_deps/approvaltests-build/third_party/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260515-0148-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-G041B6R"
+	OSRelease="10.0.19045"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="7371"
+	TotalPhysicalMemory="8130"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3401.000000"
+	>
+	<Testing>
+		<StartDateTime>May 15 11:15 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778811350</StartTestTime>
+		<TestList>
+			<Test>./GildedRoseApproval.ThirtyDaysSimulation</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>GildedRoseApproval.ThirtyDaysSimulation</Name>
+			<Path>.</Path>
+			<FullName>./GildedRoseApproval.ThirtyDaysSimulation</FullName>
+			<FullCommandLine>E:\dev\GildedRose_13\build\gilded_rose_test.exe "--gtest_filter=GildedRoseApproval.ThirtyDaysSimulation" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778811350.202749</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.079242</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>E:\dev\GildedRose_13\build\gilded_rose_test.exe "--gtest_filter=GildedRoseApproval.ThirtyDaysSimulation" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUMEKgkAQve9XzLEOCgZdAg+B4SGo0DqJhw0nW1h3ZHcs/PssScII7J0G5r03b96OGFcQE5Ua4YiO4aI0o4UQYqULLBJyuK5rSzep/eNVWW4j2bpUVY2WrMiILByQQ9IYo0wJAfDLzFL1nl2jGH2ReQNyiDWdpe73aG7KkqnQdFxkr6lH5E/P73Aig+S0gxfy6eF7Aey300UwWwRQufk/6TrNstMAE0s9F9NaYJTWK+g+6vhXt2Cl8UeHuv8O6zTdRM9SerIvHqVkoek=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 15 11:15 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778811350</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

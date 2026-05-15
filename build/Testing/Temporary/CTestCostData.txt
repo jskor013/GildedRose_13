@@ -1,0 +1,18 @@
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 20, 0) 1 0.0313129
+BackstageBoundary/BackstagePassTest.QualityUpdate/(0, 50, 0) 1 0.0316584
+BackstageBoundary/BackstagePassTest.QualityUpdate/(1, 20, 23) 1 0.0313503
+BackstageBoundary/BackstagePassTest.QualityUpdate/(10, 20, 22) 1 0.0318669
+BackstageBoundary/BackstagePassTest.QualityUpdate/(11, 20, 21) 1 0.0318135
+BackstageBoundary/BackstagePassTest.QualityUpdate/(15, 20, 21) 1 0.0321545
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 20, 23) 1 0.0312331
+BackstageBoundary/BackstagePassTest.QualityUpdate/(5, 50, 50) 1 0.0312658
+BackstageBoundary/BackstagePassTest.QualityUpdate/(6, 20, 22) 1 0.0356253
+ConjuredTest.DegradesTwiceAfterSellDate 1 0.0309496
+ConjuredTest.DegradesTwiceNormal 1 0.0345435
+ConjuredTest.QualityNeverNegative 1 0.0340577
+GildedRoseApproval.ThirtyDaysSimulation 1 0.0792423
+GildedRoseTest.AgedBrieQualityMax50 1 0.0341216
+GildedRoseTest.NormalItemDegradesTwiceAfterSellDate 1 0.031918
+GildedRoseTest.QualityNeverNegative 1 0.0344666
+GildedRoseTest.SulfurasNoChangesAfterUpdate 1 0.0340173
+---

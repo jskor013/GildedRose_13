@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate-complete.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test.rule"
+		},
+		{
+			"file" : "E:/dev/GildedRose_13/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"approvaltests-populate"
+		],
+		"name" : "approvaltests-populate"
+	}
+}

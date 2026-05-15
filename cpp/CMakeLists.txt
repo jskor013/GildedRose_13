@@ -57,6 +57,7 @@ enable_testing()
 add_executable(
     gilded_rose_test
     test/GildedRoseTest.cpp
+    test/GildedRoseApprovalTest.cpp
 )
 
 # ─────────────────────────────────────────────
