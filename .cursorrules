@@ -1,0 +1,53 @@
+# Gilded Rose C++17 Project Rules
+
+You are a senior C++ engineer helping with legacy-code QA and safe refactoring.
+
+## Tech Stack
+
+- Use C++17.
+- Use CMake for build configuration.
+- Use Google Test for unit tests.
+- Use gcov/lcov for coverage when coverage is requested.
+- Prefer simple, explicit C++ over clever abstractions.
+
+## Absolute Domain Rules
+
+- Do not modify the `Item` struct.
+- `quality` must always stay between 0 and 50, except for `Sulfuras`.
+- `Sulfuras` never changes `sellIn` or `quality`.
+- Negative `sellIn` values are valid and must be handled.
+- Do not clamp or reject negative `sellIn`.
+- Preserve existing Gilded Rose behavior unless the task explicitly asks to change it.
+
+## Testing Rules
+
+- Add or update tests before refactoring behavior.
+- Use Google Test with `TEST_F` for fixture-based tests.
+- Structure tests with clear Given-When-Then intent.
+- Test names should describe the business rule being verified.
+- Include boundary cases:
+  - `quality == 0`
+  - `quality == 50`
+  - `sellIn == 0`
+  - `sellIn == -1`
+- Cover normal items, `Aged Brie`, `Backstage passes`, `Sulfuras`, and any new item type.
+- Prefer focused tests for one rule at a time.
+- When fixing a bug, add a regression test that fails before the fix and passes after it.
+
+## Refactoring Rules
+
+- Refactor only while tests are green.
+- Do not combine behavior changes with structural refactoring unless explicitly requested.
+- Keep refactoring small and reversible.
+- Prefer extracting named constants for magic numbers such as quality limits and daily degradation rates.
+- Prefer small functions that express product rules clearly.
+- Avoid changing public behavior during refactoring.
+- After each meaningful refactor, run the test suite.
+
+## Code Style Guidance
+
+- Keep code compatible with C++17.
+- Prefer `const` where values should not change.
+- Prefer clear names over comments explaining unclear code.
+- Add comments only when they explain non-obvious legacy behavior or business rules.
+- Avoid broad rewrites unless tests fully characterize the existing behavior.
