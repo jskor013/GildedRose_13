@@ -1,55 +1,68 @@
 #include "GildedRose.h"
+#include <string>
 
 GildedRose::GildedRose(std::vector<Item>& items) : items(items) {}
 
+namespace {
+const std::string kAgedBrie = "Aged Brie";
+const std::string kBackstagePass = "Backstage passes to a TAFKAL80ETC concert";
+const std::string kSulfuras = "Sulfuras, Hand of Ragnaros";
+const std::string kConjured = "Conjured";
+
+bool isConjured(const Item& item) {
+    return item.name.find(kConjured) != std::string::npos;
+}
+
+void increaseQuality(Item& item) {
+    if (item.quality < 50) {
+        item.quality = item.quality + 1;
+    }
+}
+
+void decreaseQuality(Item& item) {
+    if (item.quality > 0) {
+        item.quality = item.quality - 1;
+    }
+}
+}
+
 void GildedRose::updateQuality() {
     for (size_t i = 0; i < items.size(); i++) {
-        if (items[i].name != "Aged Brie"
-                && items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
-            if (items[i].quality > 0) {
-                if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-                    items[i].quality = items[i].quality - 1;
-                }
+        Item& item = items[i];
+
+        if (item.name == kSulfuras) {
+            continue;
+        }
+
+        if (item.name == kAgedBrie) {
+            increaseQuality(item);
+        } else if (item.name == kBackstagePass) {
+            increaseQuality(item);
+            if (item.sellIn < 11) {
+                increaseQuality(item);
             }
+            if (item.sellIn < 6) {
+                increaseQuality(item);
+            }
+        } else if (isConjured(item)) {
+            decreaseQuality(item);
+            decreaseQuality(item);
         } else {
-            if (items[i].quality < 50) {
-                items[i].quality = items[i].quality + 1;
-
-                if (items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
-                    if (items[i].sellIn < 11) {
-                        if (items[i].quality < 50) {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
-
-                    if (items[i].sellIn < 6) {
-                        if (items[i].quality < 50) {
-                            items[i].quality = items[i].quality + 1;
-                        }
-                    }
-                }
-            }
+            decreaseQuality(item);
         }
 
-        if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-            items[i].sellIn = items[i].sellIn - 1;
-        }
+        item.sellIn = item.sellIn - 1;
 
-        if (items[i].sellIn < 0) {
-            if (items[i].name != "Aged Brie") {
-                if (items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
-                    if (items[i].quality > 0) {
-                        if (items[i].name != "Sulfuras, Hand of Ragnaros") {
-                            items[i].quality = items[i].quality - 1;
-                        }
-                    }
-                } else {
-                    items[i].quality = items[i].quality - items[i].quality;
-                }
+        if (item.sellIn < 0) {
+            if (item.name == kAgedBrie) {
+                increaseQuality(item);
+            } else if (item.name == kBackstagePass) {
+                item.quality = 0;
+            } else if (isConjured(item)) {
+                decreaseQuality(item);
+                decreaseQuality(item);
             } else {
-                if (items[i].quality < 50) {
-                    items[i].quality = items[i].quality + 1;
-                }
+                decreaseQuality(item);
             }
         }
     }
