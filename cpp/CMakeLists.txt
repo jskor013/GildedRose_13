@@ -22,5 +22,13 @@ enable_testing()
 add_executable(gilded_rose_test test/GildedRoseTest.cpp)
 target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
 
+add_executable(gilded_rose_approval_test test/GildedRoseApprovalTest.cpp)
+target_link_libraries(gilded_rose_approval_test gilded_rose GTest::gtest_main)
+target_compile_definitions(gilded_rose_approval_test PRIVATE
+  GILDED_ROSE_APPROVAL_DIR="${CMAKE_CURRENT_SOURCE_DIR}/test/approval"
+  GILDED_ROSE_RECEIVED_DIR="${CMAKE_CURRENT_BINARY_DIR}/approval"
+)
+
 include(GoogleTest)
 gtest_discover_tests(gilded_rose_test)
+gtest_discover_tests(gilded_rose_approval_test)
